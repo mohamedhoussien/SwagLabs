@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+
+    <test name="LoginTests">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="ProductTest">
+        <classes>
+            <class name="ProductTest"/>
+        </classes>
+    </test>
+
+    <test name="CheckoutNegativeTest">
+        <classes>
+            <class name="CheckoutNegativeTest"/>
+        </classes>
+    </test>
+
+</suite>
